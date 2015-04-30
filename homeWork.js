@@ -1,4 +1,4 @@
-/*
+/*fff
 * Practice using `prompt`, `confirm`, and `alert` try the following. You may want to look them up on **MDN**.
   * Ask the user for the their `firstName`. Then `alert` it.
    Ask the `user` `"have we met before?"`. If `true` then respond `"nice to meet you"`.
@@ -77,6 +77,33 @@ while (guess != rand){
 		console.log("They match!")
 	}
 }
+
+// * Super Challenge: Given an array of friends
+// write a loop to alert them in some random order. 
+//VERY DIIFICULT
+
+var friends = [
+                  "larry",
+                  "moe",
+                  "curly",
+                  "huey",
+                  "louie",
+                  "dewey"
+                  ];
+
+var rand = Math.floor((Math.random() * 5) + 1)
+
+for (var i = friends.length - 1; i >= 0; i--) {
+	friends[i]
+};
+
+
+
+
+
+ 
+
+
 
 
 
